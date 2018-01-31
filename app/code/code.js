@@ -34,7 +34,7 @@ var Code = {};
 Code.LANGUAGE_NAME = {
   'ar': 'العربية',
   'en': 'English',
-  'es':'Español',
+  'es': 'Español',
   'fr': 'Français'
 };
 
@@ -256,7 +256,7 @@ Code.tabClick = function(clickedName) {
 /**
  * Populate the currently selected pane with content generated from the blocks.
  */
-Code.renderContent = function () {
+Code.renderContent = function() {
   var content = document.getElementById('content_' + Code.selected);
   // Initialize the pane.
   if (content.id == 'content_xml') {
@@ -304,14 +304,14 @@ Code.renderContent = function () {
       code = content.textContent;
       code = PR.prettyPrintOne(code, 'lua');
       content.innerHTML = code;
-    } else if (content.id == 'content_arduino') {
-      code = Blockly.Lua.workspaceToCode(Code.workspace);
-      content.textContent = code;
-      if (typeof PR.prettyPrintOne == 'function') {
-        code = content.textContent;
-        code = PR.prettyPrintOne(code, 'arduino');
-        content.innerHTML = code;
-      }
+    }
+  } else if (content.id == 'content_arduino') {
+    code = Blockly.Arduino.workspaceToCode(Code.workspace);
+    content.textContent = code;
+    if (typeof PR.prettyPrintOne == 'function') {
+      code = content.textContent;
+      code = PR.prettyPrintOne(code, 'arduino');
+      content.innerHTML = code;
     }
   }
 };
