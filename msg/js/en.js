@@ -423,3 +423,288 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.TEXTS_HUE = "160";
 /** @export */ Blockly.Msg.PROCEDURES_HUE = "290";
 /** @export */ Blockly.Msg.COLOUR_HUE = "20";
+
+//IN OUT
+Blockly.Msg.INOUT_HIGH_LEVEL="HIGH";
+Blockly.Msg.INOUT_LOW_LEVEL="LOW";
+Blockly.Msg.INPOUT_DIGITAL_WRITE="DigitalWrite PIN#";
+Blockly.Msg.INOUT_STAT="STAT";
+Blockly.Msg.INOUT_DIG_READ="Digital read PIN#";
+Blockly.Msg.INOUT_ANA_READ="AnalogRead PIN#";
+Blockly.Msg.INOUT_BUI_LED="Integrated LED Stat";
+Blockly.Msg.INOUT_ANA_WRITE="Analog Write";
+Blockly.Msg.INOUT_VALUE="Value";
+
+//SERIAL
+Blockly.Msg.Serial_Print="Print on new line";
+Blockly.Msg.Serial_PrintL="Print on same line";
+Blockly.Msg.Serial_Write="Serial write";
+Blockly.Msg.Serial_write_out="Write";
+Blockly.Msg.Serial_Print_Format="Print  Format";
+Blockly.Msg.Serial_Print_ForDecimal="decimal";
+Blockly.Msg.Serial_Print_ForHexa="hexadecimal";
+Blockly.Msg.Serial_Print_ForBin="binary";
+Blockly.Msg.Serial_Print_ForOct="octal";
+Blockly.Msg.Serial_read="Serial Read";
+Blockly.Msg.Serial_avai="Serial Available?";
+Blockly.Msg.Serial_flush="Serial flush";
+
+//SOFTWARE SERIAL
+Blockly.Msg.SSERIAL_Init="INIT";
+Blockly.Msg.SSERIAL_TX="TX#";
+Blockly.Msg.SSERIAL_RX="RX#";
+Blockly.Msg.SSERIAL_Read="SoftwareSerial Read";
+Blockly.Msg.SSERIAL_Print="SoftwareSerial Print";
+Blockly.Msg.SSERIAL_Write="SoftwareSerial Write";
+Blockly.Msg.SSERIAL_Avai="SoftwareSerial Available?";
+
+//SERVO
+Blockly.Msg.SERVO_Servo="Servo";
+Blockly.Msg.PIN="PIN#";
+Blockly.Msg.Degree="Degree (0~180)";
+Blockly.Msg.Delay="Delay";
+Blockly.Msg.SERVO_ReadDegree="Read Degrees";
+Blockly.Msg.SERVO_Attached="Servo Attached?";
+Blockly.Msg.SERVO_Detach="Detach Servo PIN#";
+
+//SERIAL LCD
+Blockly.Msg.LCD_Serial="Serial LCD";
+Blockly.Msg.LCD_Print_Line1="print line 1";
+Blockly.Msg.LCD_Print_Line2="print line 2";
+Blockly.Msg.Power="Power";
+Blockly.Msg.ONN="ON";
+Blockly.Msg.OFFF="OFF";
+Blockly.Msg.LCD_Effect="Effect";
+Blockly.Msg.LCD_Scroll_Left="Scroll Left";
+Blockly.Msg.LCD_Scroll_Right="Scroll Right";
+Blockly.Msg.LCD_Scroll_Auto="Scroll Auto";
+
+//LCD PARALLEL
+Blockly.Msg.LCDP_Setup = "LCD Setup";
+Blockly.Msg.LCDP_RS = "RS";
+Blockly.Msg.LCDP_Enabled = "Enabled";
+Blockly.Msg.LCDP_D4 = "D4";
+Blockly.Msg.LCDP_D5 = "D5";
+Blockly.Msg.LCDP_D6 = "D6";
+Blockly.Msg.LCDP_D7 = "D7";
+Blockly.Msg.LCDP_Column = "Columns";
+Blockly.Msg.LCDP_Row = "Rows";
+Blockly.Msg.LCDP_Print = "LCD PRINT";
+Blockly.Msg.LCDP_Clear = "LCD clear";
+Blockly.Msg.LCDP_scrollDisplayLeft = "LCD scroll DisplayLeft ";
+Blockly.Msg.LCDP_scrollDisplayRight = "LCD scroll Display Right ";
+Blockly.Msg.LCDP_Home = "LCD home";
+Blockly.Msg.LCDP_SetCursor = "LCD set Cursor";
+Blockly.Msg.LCDP_Display = "LCD display";
+Blockly.Msg.LCDP_noDiplay = "LCD no display";
+Blockly.Msg.LCD_I2C_setup = "SETUP SERIAL LCD I2C Address";
+
+
+
+//VARIOUS
+Blockly.Msg.VAR_TemSens="Analog Temperature Sensor";
+Blockly.Msg.VAR_Motor="Motor";
+Blockly.Msg.Stop="Stop";
+Blockly.Msg.Forward="Forward";
+Blockly.Msg.Right="Right";
+Blockly.Msg.Left="Left";
+Blockly.Msg.Backward="Backward";
+Blockly.Msg.DelayMs="Delay Ms";
+Blockly.Msg.SinceProgramStarted="Program started since";
+Blockly.Msg.RandomBetween="Random number between";
+Blockly.Msg.And="and";
+Blockly.Msg.Constrain="Constrain";
+Blockly.Msg.Number="Number";
+Blockly.Msg.NumberA="A";
+Blockly.Msg.NumberB="B";
+Blockly.Msg.PulseIn="Pulse In";
+Blockly.Msg.ultrasonic_ranger="Ultrasonic Ranger";
+Blockly.Msg.unit="Unit";
+Blockly.Msg.cm="cm";
+Blockly.Msg.inch="inch";
+Blockly.Msg.TRIG="TRIG Trigger";
+Blockly.Msg.Echo="Echo";
+Blockly.Msg.DHT="DHT temperature sensor";
+Blockly.Msg.TypeDHT="Type: DHT";
+Blockly.Msg.UnitOfMeasure="Unit of measure";
+Blockly.Msg.Celsus="Celsius";
+Blockly.Msg.Fahrenheit="Fahrenheit";
+Blockly.Msg.DHT_Humidity="DHT humidity sensor";
+
+//LOOPS
+Blockly.Msg.Break = "Break";
+Blockly.Msg.continue = "Continue";
+Blockly.Msg.returnnull = "Return";
+
+//VARIABLES 
+Blockly.Msg.Var_Declare="Declare";
+Blockly.Msg.Var_As="as";
+
+//Math "Map "
+Blockly.Msg.Math_map="Map "; 
+Blockly.Msg.Math_valueto="value to [0-";
+
+//STRING SET
+Blockly.Msg.STRING_SET = "set STRING %1 to %2";
+Blockly.Msg.STRING_SET_CREATE_GET = "Create String 'get %1'";
+Blockly.Msg.STRING_SET_HELPURL = "https://github.com/google/blockly/wiki/Variables#set";
+Blockly.Msg.STRING_SET_TOOLTIP = "Sets this string to be equal to the input.";
+Blockly.Msg.RENAME_VARIABLE = "Rename variable...";
+Blockly.Msg.String_As="as String";
+Blockly.Msg.STRING_charat="Char in %1 At %2";
+Blockly.Msg.STRING_charat2="Char At";
+Blockly.Msg.STRING_compareTo="Compare to";
+Blockly.Msg.STRING_Contact="Concat ";
+Blockly.Msg.STRING_LengthOf="Length of ";
+Blockly.Msg.STRING_Ends_With="Ends with ";
+Blockly.Msg.STRING_Equal="Equal to ";
+Blockly.Msg.STRING_toInt="to Integer";
+Blockly.Msg.STRING_toFloat="to float";
+Blockly.Msg.IndexOf="Index of";
+Blockly.Msg.STRING_tochararray="To Char array: Char";
+Blockly.Msg.STRING_Length="length:";
+
+
+
+
+//Conversions
+Blockly.Msg.CONV_tochar="Convert to char "; 
+Blockly.Msg.CONV_tobyte="Convert to Byte ";
+Blockly.Msg.CONV_toint="Convert to Int ";
+Blockly.Msg.CONV_tofloat="Convert to Float ";
+    
+//ADVANCED I/O
+Blockly.Msg.TonePin="Tone PIN#";
+Blockly.Msg.Frequence="Frequency";
+Blockly.Msg.Duration="Duration";
+Blockly.Msg.NoTonePin="No Tone PIN#";
+Blockly.Msg.Setup="Setup";
+Blockly.Msg.Loop="Main loop";
+Blockly.Msg.EEPROM_Begin="EEPROM Begin"; 
+Blockly.Msg.EEPROM_Write="EEPROM Write: Byte";
+Blockly.Msg.EEPROM_Value="Value"; 
+Blockly.Msg.EEPROM_Read="EEPROM Read: Byte";
+
+
+
+Blockly.Msg.sup=">";
+Blockly.Msg.supeg="=>";
+Blockly.Msg.inf="<";
+Blockly.Msg.infeg="<=";
+
+///IOT
+Blockly.Msg.IOT_ConnectNetwork="Connect Network";
+Blockly.Msg.IOT_ssid="ssid";
+Blockly.Msg.IOT_password="password";
+Blockly.Msg.IOT_static_ip="STATIC IP";
+Blockly.Msg.IOT_IP="IP";
+Blockly.Msg.IOT_gateway="Gateway";
+Blockly.Msg.IOT_masque="mask";
+Blockly.Msg.IOT_Stationreconnect="Station reconnect";
+Blockly.Msg.IOT_StationDisconnect="Disconnect";
+Blockly.Msg.IOT_Isconnected="Is Connected?";
+Blockly.Msg.IOT_ShowMac="Show MAC Address";
+Blockly.Msg.IOT_StartServer="Start Server";
+Blockly.Msg.IOT_Port="Port";
+Blockly.Msg.IOT_LocalIP="Local IP";
+Blockly.Msg.IOT_GatewayIP="Gateway IP";
+Blockly.Msg.IOT_MaskIP="Mask";
+Blockly.Msg.IOT_hostname="Host name"; 
+Blockly.Msg.IOT_sethostname="Set host name";
+Blockly.Msg.IOT_ClientIp="Client IP";
+Blockly.Msg.IOT_ServerReadRequest="Server Read request";
+Blockly.Msg.IOT_Answer="Answer";
+Blockly.Msg.IOT_WaitConnecion="Wait Connection";
+Blockly.Msg.IOT_ClientFlush="client flush";
+Blockly.Msg.IOT_WiFiSoftAP="WiFi softAP";
+Blockly.Msg.IOT_softAPConfigIP="softAP Config IP";
+Blockly.Msg.IOT_LocalSoftApIp="SoftAp local IP";
+Blockly.Msg.IOT_StationNumber="SoftAp Connected station number";
+Blockly.Msg.IOT_SendRequest="Send request";
+Blockly.Msg.IOT_SendRequestWithAnswer="Send request with Answer";
+Blockly.Msg.IOT_SendToThingspeak="Send to thingspeak";
+Blockly.Msg.IOT_Key="Key";
+Blockly.Msg.IOT_Field="Field";
+Blockly.Msg.IOT_ServerReadRequest="Server Read request";
+Blockly.Msg.IOT_Connect="Connect";
+Blockly.Msg.IOT_WebSite="Website";
+Blockly.Msg.IOT_Port="Port";
+Blockly.Msg.IOT_SendTweet="Send Tweet";
+Blockly.Msg.IOT_IFTTT="Web Service IFTTT";
+Blockly.Msg.IOT_Tweet="Tweet";
+Blockly.Msg.IOT_Event="Event";
+Blockly.Msg.IOT_Value1="Value 1";
+Blockly.Msg.IOT_Value2="Value 2";
+Blockly.Msg.IOT_Value3="Value 3";
+Blockly.Msg.IOT_PingIp="Ping IP";
+Blockly.Msg.IOT_PingRomoteHost="Ping remote host";
+Blockly.Msg.IOT_FeedWatchDog="Feed watch dog - Counter";
+Blockly.Msg.IOT_UnixTime= "UNIX TIME";
+Blockly.Msg.IOT_NTP_Time="NTP TIME";
+Blockly.Msg.IOT_Hour="Hour";
+Blockly.Msg.IOT_Minutes="Minute";
+Blockly.Msg.IOT_Second="Second";
+Blockly.Msg.IOT_Heading="Heading"; 
+Blockly.Msg.IOT_Color="Color"; 
+Blockly.Msg.IOT_Text="Text"; 
+Blockly.Msg.IOT_ClientAvailable="Client available"; 
+Blockly.Msg.IOT_SPAN="SPAN"; 
+Blockly.Msg.IOT_FontSize="Font size (Px)"; 
+Blockly.Msg.IOT_NewLine="New line"; 
+Blockly.Msg.IOT_ScanWifiNetwork="Scan wifi network";  
+Blockly.Msg.IOT_ScanDelete="Scan delete"; 
+Blockly.Msg.IOT_WifiSsid="Wifi SSID";
+Blockly.Msg.IOT_Ssid="SSID"; 
+Blockly.Msg.IOT_EncryptionType="Encryption Type"; 
+Blockly.Msg.IOT_WifiRssi="Wifi RSSI"; 
+Blockly.Msg.IOT_WifiButton="Button"; 
+Blockly.Msg.IOT_ButtonTitle="button title"; 
+Blockly.Msg.IOT_Adafruit_MQTT_Setup="Adafruit MQTT Setup"; "User Name"
+Blockly.Msg.IOT_UserName="User Name"; 
+Blockly.Msg.IOT_MqttIsConnected="Adafruit MQTT is connected?";  
+Blockly.Msg.IOT_MqttPublish="Adafruit MQTT Publish"; 
+Blockly.Msg.IOT_FeedName="feed name";  
+Blockly.Msg.IOT_Data="Data"; 
+Blockly.Msg.IOT_SubscribeForFeed="subscribe for feed"; 
+Blockly.Msg.IOT_WaitForSubscription="Wait for subscription: "; 
+Blockly.Msg.IOT_Subscription="Subscription";
+Blockly.Msg.IOT_Feed="Feed"; 
+Blockly.Msg.IOT_FeedReadLastValue="Feed: read last value   ";
+
+
+
+
+ 
+
+Blockly.Msg.IOT_ClearServerRequest="clear HTTP request in the Server";
+Blockly.Msg.IOT_ClearClientRequest="clear HTTP request in the Client";
+Blockly.Msg.IOT_t="";
+
+Blockly.Msg.various_tone="Tone"; 
+Blockly.Msg.various_frequency="Frequency"; 
+Blockly.Msg.various_notone="No Tone"; 
+Blockly.Msg.IOT_NewClientConnection="New client connection";
+Blockly.Msg.IOT_value="Value"; 
+Blockly.Msg.IOT_ChannelNumber="channel Number";
+Blockly.Msg.IOT_FieldNumber="Field Number";
+
+//180617
+Blockly.Msg.IOT_readfieldpriv = "Read field (Private) Type";
+Blockly.Msg.IOT_apikey = "Api Key";
+Blockly.Msg.IOT_readfieldpub = "Read field (Public) Type";
+Blockly.Msg.IOT_Time="Time";
+Blockly.Msg.IOT_server="Server";
+Blockly.Msg.IOT_utc = "Coordinated Universal Time (UTC)";
+Blockly.Msg.IOT_AnswerWebpage ="Answer Web page";
+Blockly.Msg.IOT_head="Head";
+Blockly.Msg.IOT_body="Body";
+Blockly.Msg.IOT_webpage="Web page";
+Blockly.Msg.IOT_html="HTML";
+
+
+Blockly.Msg.IOT_TIME_Time="TIME"; 
+Blockly.Msg.IOT_TIME_TimeServer="NTP time server"; 
+Blockly.Msg.IOT_TIME_TimeZone="Time zone"; 
+Blockly.Msg.IOT_TIME_Day="Day"; 
+Blockly.Msg.IOT_TIME_Month="Month"; 
+Blockly.Msg.IOT_TIME_Year="Year";
